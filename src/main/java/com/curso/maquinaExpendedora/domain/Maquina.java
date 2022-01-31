@@ -11,9 +11,17 @@ public class Maquina {
 			    numberOfRefresco = 0;
 			  }
 		
-		 public void addRefresco(String n, double p) {
+		 public void addRefresco(String n, double p, int c) {
 			    int i = numberOfRefresco++;
-			    refrescos[i] = new Refresco(n, p);
+			    refrescos[i] = new Refresco(n, p, c);
+			 }
+		 
+		 public void comprarRefresco(String n, double p, int c, int index) {
+			    int i = numberOfRefresco++;
+			    refrescos[i] = new Refresco(n, p, c);
+			    
+			    
+			    
 			 }
 		 
 		
