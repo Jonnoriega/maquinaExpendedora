@@ -11,12 +11,12 @@ public class Maquina {
 			    numberOfRefresco = 0;
 			  }
 		
-		 public void addRefresco(String n, double p, int c) {
+		 public void addRefresco(String n, int p, int c) {
 			    int i = numberOfRefresco++;
 			    refrescos[i] = new Refresco(n, p, c);
 			 }
 		 
-		 public void comprarRefresco(String n, double p, int c, int index) {
+		 public void comprarRefresco(String n, int p, int c, int index) {
 			    int i = numberOfRefresco++;
 			    refrescos[i] = new Refresco(n, p, c);
 			    

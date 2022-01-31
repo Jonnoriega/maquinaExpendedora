@@ -5,12 +5,12 @@ package com.curso.maquinaExpendedora.domain;
 public class Refresco {
 
 	private String nombre;
-	private double precio;
+	private int precio;
 	private int cantidad;
 //	private Maquina[] maquina;
 //	private int numberOfRefresh;
 	
-	public Refresco(String n, double p, int c ) {
+	public Refresco(String n, int p, int c ) {
 	    this.nombre = n;
 	    this.precio = p;
 	    this.cantidad = c;
@@ -26,11 +26,11 @@ public class Refresco {
 		this.nombre = nombre;
 	}
 
-	public double getPrecio() {
+	public int getPrecio() {
 		return precio;
 	}
 
-	public void setPrecio(double precio) {
+	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
 
